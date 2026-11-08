@@ -1,0 +1,29 @@
+services:
+  - type: web
+    name: space-game
+    runtime: node
+    plan: starter
+    buildCommand: echo "no build"
+    startCommand: npm start
+    healthCheckPath: /
+    disk:
+      name: data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: NODE_VERSION
+        value: 22.14.0
+      - key: DB_FILE
+        value: /var/data/space-game.db
+      - key: UPLOADS_DIR
+        value: /var/data/uploads
+      - key: TRUST_PROXY
+        value: "1"
+      - key: TELEGRAM_USERNAME
+        value: Amir56743
+      - key: ADMIN_USER
+        value: admin
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: SITE_URL
+        sync: false
