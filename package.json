@@ -1,0 +1,13 @@
+{
+  "name": "space-game-store",
+  "version": "1.0.0",
+  "description": "Space Game - فروشگاه اکانت و بازی پلی‌استیشن",
+  "private": true,
+  "main": "server.js",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "dev": "node --watch --disable-warning=ExperimentalWarning server.js",
+    "admin:password": "node --disable-warning=ExperimentalWarning scripts/set-admin-password.js"
+  }
+}

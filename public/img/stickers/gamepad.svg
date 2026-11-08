@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200"><defs><filter id="st" x="-20%" y="-20%" width="140%" height="145%" color-interpolation-filters="sRGB">
+<feMorphology in="SourceAlpha" operator="dilate" radius="5" result="d"/>
+<feFlood flood-color="#ffffff" result="f"/>
+<feComposite in="f" in2="d" operator="in" result="w"/>
+<feDropShadow in="w" dx="0" dy="5" stdDeviation="4.5" flood-color="#1b0442" flood-opacity=".55" result="ws"/>
+<feMerge><feMergeNode in="ws"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g filter="url(#st)"><path d="M38 82 C38 62 54 52 74 52 L126 52 C146 52 162 62 162 82 C172 112 178 146 162 158 C148 168 134 154 124 134 L76 134 C66 154 52 168 38 158 C22 146 28 112 38 82 Z" fill="#F5F3FF"/>
+<path d="M38 82 C38 62 54 52 74 52 L126 52 C146 52 162 62 162 82 L162 90 C150 78 128 74 100 74 C72 74 50 78 38 90 Z" fill="#DDD6FE"/>
+<rect x="78" y="58" width="44" height="22" rx="9" fill="#C4B5FD"/>
+<rect x="59" y="86" width="10" height="26" rx="2.5" fill="#6D28D9"/><rect x="51" y="94" width="26" height="10" rx="2.5" fill="#6D28D9"/>
+<circle cx="136" cy="87" r="5.5" fill="#34D399"/><circle cx="148" cy="99" r="5.5" fill="#FB7185"/><circle cx="136" cy="111" r="5.5" fill="#60A5FA"/><circle cx="124" cy="99" r="5.5" fill="#F0ABFC"/>
+<circle cx="84" cy="116" r="10" fill="#4C1D95"/><circle cx="84" cy="116" r="5.5" fill="#8B5CF6"/>
+<circle cx="116" cy="116" r="10" fill="#4C1D95"/><circle cx="116" cy="116" r="5.5" fill="#8B5CF6"/></g></svg>
